@@ -132,3 +132,7 @@ ifeq ($(WITH_OPGAL),true)
         OnePlusGallery
 endif
 
+PRODUCT_COPY_FILES += \
+    vendor/shishu/configs/privapp-permission-turbo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permission-turbo.xml
+
+
